@@ -2,37 +2,38 @@
 <html lang="en">
     <head>
         <title>This is RegisterPage</title> 
+        <link rel="stylesheet" href="../CSSFolder/style.css">
     </head>
     <body>
-        <h1>Welcome to Register Page</h1>
-        Enter your registeration informations
-        <form>
+        <h1 style="text-align: center;">Welcome to Register Page</h1>
+        <div style="text-align: center;">Enter your registeration informations</div>
+        <form class="form-container form-field">
             <div>
                 <br>
-                <label for="username">User Name:</label>
+                <label class="labelpart" for="username">User Name:</label>
                 <br>
-                <input type="text" placeholder="User Name ">
+                <input class="inputpart" type="text" placeholder="User Name ">
             </div>
             <div>
                 <br>
-                <label for="email">Email:</label>
+                <label class="labelpart" for="email">Email:</label>
                 <br>
-                <input type="email" placeholder="Email ">
+                <input class="inputpart" type="email" placeholder="Email ">
             </div>
             <div>
                 <br>
-                <label for="passwor">Password:</label>
+                <label class="labelpart" for="passwor">Password:</label>
                 <br>
-                <input type="password" placeholder="Password ">
+                <input class="inputpart" type="password" placeholder="Password ">
             </div>
             <div>
                 <br>
-                <label for="confirmpassword">Confirm Password:</label>
+                <label class="labelpart" for="confirmpassword">Confirm Password:</label>
                 <br>
-                <input type="confirmpassword" placeholder="Confirm Password">
+                <input id="labelpassword" type="confirmpassword" placeholder="Confirm Password">
             </div>
             <br>
-            <button type="button" @click>Submit</button>
+            <button class="labelbutton submit-btn" type="button" @click>Submit</button>
         </form>
     </body>
 </html>
