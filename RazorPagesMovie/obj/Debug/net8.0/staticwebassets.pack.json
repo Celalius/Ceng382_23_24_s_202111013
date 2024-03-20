@@ -17,12 +17,20 @@
       "PackagePath": "staticwebassets\\css\\Notes3.pdf"
     },
     {
+      "Id": "C:\\Users\\ardac\\Desktop\\382Proje\\Ceng382_23_24_s_202111013\\RazorPagesMovie\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
       "Id": "C:\\Users\\ardac\\Desktop\\382Proje\\Ceng382_23_24_s_202111013\\RazorPagesMovie\\wwwroot\\css\\cache1.png",
       "PackagePath": "staticwebassets\\css\\cache1.png"
     },
     {
       "Id": "C:\\Users\\ardac\\Desktop\\382Proje\\Ceng382_23_24_s_202111013\\RazorPagesMovie\\wwwroot\\css\\cache2.png",
       "PackagePath": "staticwebassets\\css\\cache2.png"
+    },
+    {
+      "Id": "C:\\Users\\ardac\\Desktop\\382Proje\\Ceng382_23_24_s_202111013\\RazorPagesMovie\\wwwroot\\css\\css@3.css",
+      "PackagePath": "staticwebassets\\css\\css@3.css"
     },
     {
       "Id": "C:\\Users\\ardac\\Desktop\\382Proje\\Ceng382_23_24_s_202111013\\RazorPagesMovie\\wwwroot\\css\\pricing.css",
@@ -35,6 +43,10 @@
     {
       "Id": "C:\\Users\\ardac\\Desktop\\382Proje\\Ceng382_23_24_s_202111013\\RazorPagesMovie\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ardac\\Desktop\\382Proje\\Ceng382_23_24_s_202111013\\RazorPagesMovie\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
     },
     {
       "Id": "C:\\Users\\ardac\\Desktop\\382Proje\\Ceng382_23_24_s_202111013\\RazorPagesMovie\\wwwroot\\js\\color-modes.js",
