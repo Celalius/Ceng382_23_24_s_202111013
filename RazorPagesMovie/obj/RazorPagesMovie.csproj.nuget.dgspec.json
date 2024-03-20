@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ardac\\Desktop\\382Proje\\Ceng382_23_24_s_202111013\\RazorPagesMovie\\RazorPagesMovie.csproj": {}
+    "C:\\Users\\ardac\\Desktop\\382 Projesi\\Ceng382_23_24_s_202111013\\RazorPagesMovie\\RazorPagesMovie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ardac\\Desktop\\382Proje\\Ceng382_23_24_s_202111013\\RazorPagesMovie\\RazorPagesMovie.csproj": {
+    "C:\\Users\\ardac\\Desktop\\382 Projesi\\Ceng382_23_24_s_202111013\\RazorPagesMovie\\RazorPagesMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ardac\\Desktop\\382Proje\\Ceng382_23_24_s_202111013\\RazorPagesMovie\\RazorPagesMovie.csproj",
+        "projectUniqueName": "C:\\Users\\ardac\\Desktop\\382 Projesi\\Ceng382_23_24_s_202111013\\RazorPagesMovie\\RazorPagesMovie.csproj",
         "projectName": "RazorPagesMovie",
-        "projectPath": "C:\\Users\\ardac\\Desktop\\382Proje\\Ceng382_23_24_s_202111013\\RazorPagesMovie\\RazorPagesMovie.csproj",
+        "projectPath": "C:\\Users\\ardac\\Desktop\\382 Projesi\\Ceng382_23_24_s_202111013\\RazorPagesMovie\\RazorPagesMovie.csproj",
         "packagesPath": "C:\\Users\\ardac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ardac\\Desktop\\382Proje\\Ceng382_23_24_s_202111013\\RazorPagesMovie\\obj\\",
+        "outputPath": "C:\\Users\\ardac\\Desktop\\382 Projesi\\Ceng382_23_24_s_202111013\\RazorPagesMovie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ardac\\AppData\\Roaming\\NuGet\\NuGet.Config"
