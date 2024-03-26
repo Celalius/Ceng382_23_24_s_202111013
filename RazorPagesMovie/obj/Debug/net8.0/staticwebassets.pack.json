@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\ardac\\Desktop\\382 Projesi\\Ceng382_23_24_s_202111013\\RazorPagesMovie\\wwwroot\\js\\FuncTrack1.js",
+      "PackagePath": "staticwebassets\\js\\FuncTrack1.js"
+    },
+    {
       "Id": "C:\\Users\\ardac\\Desktop\\382 Projesi\\Ceng382_23_24_s_202111013\\RazorPagesMovie\\wwwroot\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "C5K3Slp+7cGM/YcX4zwBeBP019cgUoBz88RNi9FAjYk=",
+  "Hash": "ouslmvE/s83f/oPTDB4N2IIBQay0/Wi34RPvw3kIEck=",
   "Source": "RazorPagesMovie",
   "BasePath": "_content/RazorPagesMovie",
   "Mode": "Default",
@@ -281,6 +281,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\color-modes.js"
+    },
+    {
+      "Identity": "C:\\Users\\ardac\\Desktop\\382 Projesi\\Ceng382_23_24_s_202111013\\RazorPagesMovie\\wwwroot\\js\\FuncTrack1.js",
+      "SourceId": "RazorPagesMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ardac\\Desktop\\382 Projesi\\Ceng382_23_24_s_202111013\\RazorPagesMovie\\wwwroot\\",
+      "BasePath": "_content/RazorPagesMovie",
+      "RelativePath": "js/FuncTrack1.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\FuncTrack1.js"
     },
     {
       "Identity": "C:\\Users\\ardac\\Desktop\\382 Projesi\\Ceng382_23_24_s_202111013\\RazorPagesMovie\\wwwroot\\js\\site.js",
