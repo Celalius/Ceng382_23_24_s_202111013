@@ -1,0 +1,15 @@
+C:\Users\ardac\Desktop\382 Projesi\Ceng382_23_24_s_202111013\bin\Debug\net8.0\Ceng382_23_24_s_202111013.exe
+C:\Users\ardac\Desktop\382 Projesi\Ceng382_23_24_s_202111013\bin\Debug\net8.0\Ceng382_23_24_s_202111013.deps.json
+C:\Users\ardac\Desktop\382 Projesi\Ceng382_23_24_s_202111013\bin\Debug\net8.0\Ceng382_23_24_s_202111013.runtimeconfig.json
+C:\Users\ardac\Desktop\382 Projesi\Ceng382_23_24_s_202111013\bin\Debug\net8.0\Ceng382_23_24_s_202111013.dll
+C:\Users\ardac\Desktop\382 Projesi\Ceng382_23_24_s_202111013\bin\Debug\net8.0\Ceng382_23_24_s_202111013.pdb
+C:\Users\ardac\Desktop\382 Projesi\Ceng382_23_24_s_202111013\obj\Debug\net8.0\Ceng382_23_24_s_202111013.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ardac\Desktop\382 Projesi\Ceng382_23_24_s_202111013\obj\Debug\net8.0\Ceng382_23_24_s_202111013.AssemblyInfoInputs.cache
+C:\Users\ardac\Desktop\382 Projesi\Ceng382_23_24_s_202111013\obj\Debug\net8.0\Ceng382_23_24_s_202111013.AssemblyInfo.cs
+C:\Users\ardac\Desktop\382 Projesi\Ceng382_23_24_s_202111013\obj\Debug\net8.0\Ceng382_23_24_s_202111013.csproj.CoreCompileInputs.cache
+C:\Users\ardac\Desktop\382 Projesi\Ceng382_23_24_s_202111013\obj\Debug\net8.0\Ceng382_23_24_s_202111013.sourcelink.json
+C:\Users\ardac\Desktop\382 Projesi\Ceng382_23_24_s_202111013\obj\Debug\net8.0\Ceng382_23_24_s_202111013.dll
+C:\Users\ardac\Desktop\382 Projesi\Ceng382_23_24_s_202111013\obj\Debug\net8.0\refint\Ceng382_23_24_s_202111013.dll
+C:\Users\ardac\Desktop\382 Projesi\Ceng382_23_24_s_202111013\obj\Debug\net8.0\Ceng382_23_24_s_202111013.pdb
+C:\Users\ardac\Desktop\382 Projesi\Ceng382_23_24_s_202111013\obj\Debug\net8.0\Ceng382_23_24_s_202111013.genruntimeconfig.cache
+C:\Users\ardac\Desktop\382 Projesi\Ceng382_23_24_s_202111013\obj\Debug\net8.0\ref\Ceng382_23_24_s_202111013.dll
