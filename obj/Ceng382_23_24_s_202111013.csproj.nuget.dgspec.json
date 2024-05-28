@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ardac\\Desktop\\382 Projesi\\Ceng382_23_24_s_202111013\\Ceng382_23_24_s_202111013.csproj": {}
+    "C:\\Users\\ardac\\Desktop\\382\\Ceng382_23_24_s_202111013\\Ceng382_23_24_s_202111013.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ardac\\Desktop\\382 Projesi\\Ceng382_23_24_s_202111013\\Ceng382_23_24_s_202111013.csproj": {
+    "C:\\Users\\ardac\\Desktop\\382\\Ceng382_23_24_s_202111013\\Ceng382_23_24_s_202111013.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ardac\\Desktop\\382 Projesi\\Ceng382_23_24_s_202111013\\Ceng382_23_24_s_202111013.csproj",
+        "projectUniqueName": "C:\\Users\\ardac\\Desktop\\382\\Ceng382_23_24_s_202111013\\Ceng382_23_24_s_202111013.csproj",
         "projectName": "Ceng382_23_24_s_202111013",
-        "projectPath": "C:\\Users\\ardac\\Desktop\\382 Projesi\\Ceng382_23_24_s_202111013\\Ceng382_23_24_s_202111013.csproj",
+        "projectPath": "C:\\Users\\ardac\\Desktop\\382\\Ceng382_23_24_s_202111013\\Ceng382_23_24_s_202111013.csproj",
         "packagesPath": "C:\\Users\\ardac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ardac\\Desktop\\382 Projesi\\Ceng382_23_24_s_202111013\\obj\\",
+        "outputPath": "C:\\Users\\ardac\\Desktop\\382\\Ceng382_23_24_s_202111013\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ardac\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,6 +42,28 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,6 +76,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
