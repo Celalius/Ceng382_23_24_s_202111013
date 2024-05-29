@@ -1,0 +1,23 @@
+@page
+@model EditModel
+@{
+    ViewData["Title"] = "Edit Room";
+}
+
+<h1>Edit Room</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Room.RoomName"></label>
+        <input asp-for="Room.RoomName" class="form-control" />
+        <span asp-validation-for="Room.RoomName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Room.Capacity"></label>
+        <input asp-for="Room.Capacity" class="form-control" />
+        <span asp-validation-for="Room.Capacity" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
+
+<a asp-page="./Index" class="btn btn-secondary">Back to List</a>
