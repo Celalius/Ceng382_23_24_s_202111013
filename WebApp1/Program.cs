@@ -43,4 +43,10 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 
+app.MapGet("/", context => 
+{
+    context.Response.Redirect("/Identity/Account/Login");
+    return Task.CompletedTask;
+});
+
 app.Run();
