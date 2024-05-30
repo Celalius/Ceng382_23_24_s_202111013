@@ -1,0 +1,32 @@
+﻿@page
+@model MyApp.Namespace.RoomsModel
+@{
+    ViewData["Title"] = "Rooms List";
+}
+
+<h1>Rooms List</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Capacity</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var room in Model.Rooms)
+        {
+            <tr>
+                <td>@room.RoomName</td>
+                <td>@room.Capacity</td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@room.Id" class="btn btn-sm btn-warning">Edit</a>
+                    <a asp-page="./Delete" asp-route-id="@room.Id" class="btn btn-sm btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-page="./CreateRoom" class="btn btn-primary">Create New Room</a>
