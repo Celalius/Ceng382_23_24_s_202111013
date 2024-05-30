@@ -28,9 +28,11 @@
                         @if (User.Identity.IsAuthenticated)
                             {
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-page="/Rooms">Your Page</a>
+                                    <a class="nav-link text-dark" asp-area="" asp-page="/Rooms">Rooms</a>
                                 </li>
-                                <!-- Add other pages as needed -->
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-page="/IndexReservation">Reservations</a>
+                                </li>
                             }
                     </ul>
                     <partial name="_LoginPartial" />

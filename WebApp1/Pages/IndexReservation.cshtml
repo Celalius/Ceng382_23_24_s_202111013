@@ -1,0 +1,51 @@
+﻿@page
+@model MyApp.Namespace.IndexReservationModel
+@{
+    ViewData["Title"] = "Reservation Table";
+}
+
+<h1>Reservation Table</h1>
+
+<form method="get">
+    <div class="form-group">
+        <label for="roomFilter">Filter by Room Name:</label>
+        <input type="text" id="roomFilter" name="RoomFilter" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="dateFilter">Filter by Start Date - End Date:</label>
+        <input type="week" id="dateFilter" name="DateFilter" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="capacityFilter">Filter by Room Capacity:</label>
+        <input type="number" id="capacityFilter" name="CapacityFilter" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Apply Filters</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Room Name</th>
+            <th>Start Time</th>
+            <th>End Time</th>
+            <th>Capacity</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var reservation in Model.Reservations)
+        {
+            <tr>
+                <td>@reservation.Room.RoomName</td>
+                <td>@reservation.StartTime</td>
+                <td>@reservation.EndTime</td>
+                <td>@reservation.Room.Capacity</td>
+                <td>
+                    <a href="#" class="btn btn-sm btn-primary">Edit</a>
+                    <a href="#" class="btn btn-sm btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
