@@ -15,7 +15,7 @@ namespace MyApp.Namespace
         _context = context;
     }
 
-    public IList<Room> Rooms { get; set; }
+    public IList<Room>? Rooms { get; set; }
 
     public async Task OnGetAsync()
     {

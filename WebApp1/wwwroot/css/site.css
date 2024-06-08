@@ -18,5 +18,7 @@ html {
 }
 
 body {
+  background-image: url('https://watermark.lovepik.com/photo/20220316/large/lovepik-sales-office-vip-reception-room-picture_502365740.jpg');
+  background-size: cover;
   margin-bottom: 60px;
 }

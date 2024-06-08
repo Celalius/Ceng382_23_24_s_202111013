@@ -4,25 +4,31 @@
     ViewData["Title"] = "Create Reservation";
 }
 
-<h1>Create Reservation</h1>
+<h1>Rezervasyon Oluştur</h1>
 
 <form method="post">
+    @Html.AntiForgeryToken()
     <div class="form-group">
-        <label for="startTime">Start Time:</label>
-        <input type="datetime-local" id="startTime" name="StartTime" class="form-control" />
+        <label for="startTime">Başlangıç:</label>
+        <input type="datetime-local" id="startTime" name="Reservation.StartTime" class="form-control" />
     </div>
     <div class="form-group">
-        <label for="endTime">End Time:</label>
-        <input type="datetime-local" id="endTime" name="EndTime" class="form-control" />
+        <label for="endTime">Bitiş:</label>
+        <input type="datetime-local" id="endTime" name="Reservation.EndTime" class="form-control" />
     </div>
     <div class="form-group">
-        <label for="room">Room:</label>
-        <select id="room" name="RoomId" class="form-control">
-            @foreach (var room in Model.Rooms)
+        <label for="room">Oda:</label>
+        <select id="room" name="Reservation.RoomId" class="form-control">
+            <option value="">Seç</option>
+            @if (Model.Rooms != null)
             {
-                <option value="@room.Id">@room.RoomName</option>
+                @foreach (var room in Model.Rooms)
+                {
+                    <option value="@room.Id">@room.RoomName</option>
+                }
             }
         </select>
     </div>
-    <button type="submit" class="btn btn-primary">Create Reservation</button>
+    <button type="submit" class="btn btn-primary">Rezervasyon Oluştur</button>
 </form>
+

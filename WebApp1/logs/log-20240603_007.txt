@@ -1,0 +1,3 @@
+2024-06-03 13:01:56.876 +03:00 [WRN] Model state is invalid.
+2024-06-03 13:01:56.880 +03:00 [WRN] Model state error: The Room field is required.
+2024-06-03 13:01:56.880 +03:00 [WRN] Model state error: The value '' is invalid.
